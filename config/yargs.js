@@ -3,24 +3,24 @@ const argv = require('yargs')
         alias: 'base',
         type:'number',
         default: 10,
-        describe: 'b Corresponde a la base de la multiplicación'
+        describe: 'b - to asing a base value.'
     })    
     .option('l', {
-        alias: 'listar',
+        alias: 'list',
         type: 'boolean',
         demandOption: true,
         default: false,
-        describe: 'l Corresponde al listado de la multiplicación en consola'
+        describe: 'l - to list all the multiplication / results in console.'
     })
     .option('e', {
         alias: 'end',
         type: 'number',
         demandOption: true,
-        describe: 'e Corresponde al número por el que multiplicaremos la base de la multiplicación'
+        describe: 'e - to asing a end value of the multiplication'
     })
     .check((argv, options) =>{
         if (isNaN(argv.b))  {
-            throw 'la base debe ser un número.' 
+            throw 'Base has to be a NUMBER.' 
         }
         return true;
     })
