@@ -1,14 +1,19 @@
 # Testing Yargs for interactive console Apps:
+## This Console App will multiply one by one.
+
+**This aplication will multiply the _base_ number assigned using _yargs_ by the _end_ number, for more information read the guide behind:**
+
+
 
 
 ```
-      --help     Muestra ayuda                                        [booleano]
-      --version  Muestra número de versión                            [booleano]
-  -b, --base     b Corresponde a la base de la multiplicación
-                                                          [número] [defecto: 10]
-  -l, --listar   l Corresponde al listado de la multiplicación en consola
+      --help     Show help.                                           [boolean]
+      --version  Show the number version.                             [boolean]
+  -b, --base     b to asing a base value of the mmultiplication.
+                                                          [number] [default: 10]
+  -l, --list   l to list all the multiplication / results in console.
                                          [booleano] [requerido] [defecto: false]
-  -e, --end      e Corresponde al número por el que multiplicaremos la base de
-                 la multiplicación                          [número] [requerido]
+  -e, --end      e to asing a end value of the multiplication.
+                                                            [number] [required]
 
 ```
