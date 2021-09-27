@@ -12,7 +12,7 @@
   -b, --base     b to asing a base value of the mmultiplication.
                                                           [number] [default: 10]
   -l, --list   l to list all the multiplication / results in console.
-                                         [booleano] [requerido] [defecto: false]
+                                         [boolean] [requerido] [defecto: false]
   -e, --end      e to asing a end value of the multiplication.
                                                             [number] [required]
 
